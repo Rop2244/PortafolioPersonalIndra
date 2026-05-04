@@ -1,0 +1,44 @@
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (si usas npm en futuro)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+
+# Testing & Reports
+coverage/
+.nyc_output/
+*.lcov
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (si compilas algo)
+build/
+dist/
+*.min.js
+*.min.css
+
+# Temporal
+temp/
+tmp/
+*.tmp
